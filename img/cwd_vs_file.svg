@@ -1,0 +1,136 @@
+<svg viewBox="0 0 820 510" xmlns="http://www.w3.org/2000/svg"
+     font-family="'Segoe UI', system-ui, sans-serif">
+
+  <rect width="820" height="510" fill="#F4F3F0" rx="12"/>
+
+  <!-- Título -->
+  <rect width="820" height="62" fill="#1A3C40" rx="12"/>
+  <rect y="50" width="820" height="12" fill="#1A3C40"/>
+  <text x="410" y="29" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">
+    ¿Por qué falla la misma ruta en dos contextos distintos?
+  </text>
+  <text x="410" y="50" text-anchor="middle" font-size="12" fill="#CBE4E7">
+    el CWD cambia según desde dónde ejecutas — la ruta relativa se resuelve desde ahí
+  </text>
+
+  <!-- ══ PANEL A — funciona (pizarra) x=20 w=375 ══ -->
+  <rect x="20" y="74" width="375" height="284" fill="#FFFFFF"
+        stroke="#244E52" stroke-width="2" rx="8"/>
+  <rect x="20" y="74" width="375" height="36" fill="#244E52" rx="8"/>
+  <rect x="20" y="98" width="375" height="12" fill="#244E52"/>
+  <text x="207" y="98" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">
+    Escenario A — ejecutas desde la raíz  ✓
+  </text>
+
+  <rect x="38" y="120" width="340" height="26" fill="#1A1916" rx="4"/>
+  <text x="208" y="138" text-anchor="middle" font-size="11"
+        fill="#CBE4E7" font-family="'Cascadia Code','Consolas',monospace">$ python main.py</text>
+
+  <text x="38" y="165" font-size="11" fill="#244E52" font-weight="600">CWD actual:</text>
+  <rect x="112" y="152" width="218" height="22" fill="#244E52" rx="3"/>
+  <text x="221" y="168" text-anchor="middle" font-size="11" fill="#FFFFFF"
+        font-family="'Cascadia Code','Consolas',monospace">sesion_08/</text>
+
+  <text x="38" y="196" font-size="10.5" fill="#336E74" font-weight="600">Árbol desde el CWD:</text>
+
+  <text x="50" y="215" font-size="11" fill="#1A1916"
+        font-family="'Cascadia Code','Consolas',monospace">sesion_08/</text>
+  <rect x="132" y="205" width="56" height="15" fill="#244E52" rx="3"/>
+  <text x="160" y="217" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">← CWD</text>
+
+  <text x="50" y="232" font-size="11" fill="#7A7875"
+        font-family="'Cascadia Code','Consolas',monospace">├── main.py</text>
+  <text x="50" y="249" font-size="11" fill="#7A7875"
+        font-family="'Cascadia Code','Consolas',monospace">├── data/inputs/</text>
+  <rect x="50" y="256" width="330" height="18" fill="#EDF5F6" rx="2"/>
+  <text x="58" y="270" font-size="11" fill="#1A3C40"
+        font-family="'Cascadia Code','Consolas',monospace">│   └── declaraciones_dirty.csv</text>
+  <text x="50" y="289" font-size="11" fill="#7A7875"
+        font-family="'Cascadia Code','Consolas',monospace">└── src/</text>
+  <text x="50" y="306" font-size="11" fill="#7A7875"
+        font-family="'Cascadia Code','Consolas',monospace">    └── data_loader.py</text>
+
+  <rect x="38" y="320" width="340" height="22" fill="#F4F3F0" stroke="#D0CECC" stroke-width="1" rx="3"/>
+  <text x="208" y="336" text-anchor="middle" font-size="10.5" fill="#1A1916"
+        font-family="'Cascadia Code','Consolas',monospace">"data/inputs/declaraciones_dirty.csv"</text>
+
+  <rect x="38" y="346" width="340" height="24" fill="#244E52" rx="3"/>
+  <text x="208" y="363" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">
+    ✓  Archivo encontrado
+  </text>
+
+  <!-- ══ PANEL B — falla (coral) x=425 w=375 ══ -->
+  <rect x="425" y="74" width="375" height="284" fill="#FFFFFF"
+        stroke="#C94030" stroke-width="2" rx="8"/>
+  <rect x="425" y="74" width="375" height="36" fill="#C94030" rx="8"/>
+  <rect x="425" y="98" width="375" height="12" fill="#C94030"/>
+  <text x="612" y="98" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">
+    Escenario B — ejecutas desde src/  ✗
+  </text>
+
+  <rect x="443" y="120" width="340" height="26" fill="#1A1916" rx="4"/>
+  <text x="613" y="138" text-anchor="middle" font-size="11"
+        fill="#ECA090" font-family="'Cascadia Code','Consolas',monospace">$ python data_loader.py</text>
+
+  <text x="443" y="165" font-size="11" fill="#C94030" font-weight="600">CWD actual:</text>
+  <rect x="517" y="152" width="244" height="22" fill="#C94030" rx="3"/>
+  <text x="639" y="168" text-anchor="middle" font-size="11" fill="#FFFFFF"
+        font-family="'Cascadia Code','Consolas',monospace">sesion_08/src/</text>
+
+  <text x="443" y="196" font-size="10.5" fill="#8A2018" font-weight="600">Árbol desde el CWD:</text>
+
+  <text x="455" y="215" font-size="11" fill="#7A7875"
+        font-family="'Cascadia Code','Consolas',monospace">sesion_08/</text>
+  <text x="455" y="232" font-size="11" fill="#7A7875"
+        font-family="'Cascadia Code','Consolas',monospace">├── data/inputs/ ...</text>
+  <text x="455" y="249" font-size="11" fill="#1A1916"
+        font-family="'Cascadia Code','Consolas',monospace">└── src/</text>
+  <rect x="537" y="239" width="56" height="15" fill="#C94030" rx="3"/>
+  <text x="565" y="251" text-anchor="middle" font-size="9" fill="#FFFFFF" font-weight="700">← CWD</text>
+
+  <text x="455" y="266" font-size="11" fill="#1A1916"
+        font-family="'Cascadia Code','Consolas',monospace">    ├── data_loader.py</text>
+  <rect x="455" y="273" width="330" height="18" fill="#FAF0EE" rx="2"/>
+  <text x="463" y="287" font-size="11" fill="#8A2018"
+        font-family="'Cascadia Code','Consolas',monospace">    └── data/ ???  ← no existe aquí</text>
+  <text x="455" y="306" font-size="11" fill="#7A7875"
+        font-family="'Cascadia Code','Consolas',monospace"> </text>
+
+  <rect x="443" y="320" width="340" height="22" fill="#F4F3F0" stroke="#D0CECC" stroke-width="1" rx="3"/>
+  <text x="613" y="336" text-anchor="middle" font-size="10.5" fill="#1A1916"
+        font-family="'Cascadia Code','Consolas',monospace">"data/inputs/declaraciones_dirty.csv"</text>
+
+  <rect x="443" y="346" width="340" height="24" fill="#C94030" rx="3"/>
+  <text x="613" y="363" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">
+    ✗  FileNotFoundError
+  </text>
+
+  <!-- ══ PANEL SOLUCIÓN ══ -->
+  <rect x="20" y="370" width="780" height="122" fill="#1A3C40" rx="8"/>
+  <text x="410" y="392" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">
+    Solución: anclar la ruta a __file__ — funciona desde cualquier directorio
+  </text>
+
+  <rect x="40" y="402" width="740" height="80" fill="#111E20" rx="6"/>
+  <text x="60" y="422" font-size="11" fill="#6A9090"
+        font-family="'Cascadia Code','Consolas',monospace">DIRECTORIO_SCRIPT</text>
+  <text x="218" y="422" font-size="11" fill="#CBE4E7"
+        font-family="'Cascadia Code','Consolas',monospace">= os.path.dirname(__file__)</text>
+  <text x="480" y="422" font-size="10" fill="#4A7878" font-style="italic"
+        font-family="'Cascadia Code','Consolas',monospace"># → sesion_08/src/</text>
+
+  <text x="60" y="442" font-size="11" fill="#6A9090"
+        font-family="'Cascadia Code','Consolas',monospace">RAIZ              </text>
+  <text x="218" y="442" font-size="11" fill="#CBE4E7"
+        font-family="'Cascadia Code','Consolas',monospace">= os.path.dirname(DIRECTORIO_SCRIPT)</text>
+  <text x="480" y="442" font-size="10" fill="#4A7878" font-style="italic"
+        font-family="'Cascadia Code','Consolas',monospace"># → sesion_08/</text>
+
+  <text x="60" y="462" font-size="11" fill="#6A9090"
+        font-family="'Cascadia Code','Consolas',monospace">RUTA              </text>
+  <text x="218" y="462" font-size="11" fill="#FFFFFF"
+        font-family="'Cascadia Code','Consolas',monospace">= os.path.join(RAIZ, "data", "inputs", "declaraciones_dirty.csv")</text>
+
+  <text x="60" y="478" font-size="10" fill="#4A7878" font-style="italic"
+        font-family="'Cascadia Code','Consolas',monospace"># → sesion_08/data/inputs/declaraciones_dirty.csv   ← correcto en escenario A y B</text>
+</svg>

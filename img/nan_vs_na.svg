@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 820 464"
+   font-family="'Segoe UI', system-ui, sans-serif"
+   version="1.1"
+   id="svg58"
+   sodipodi:docname="nan_vs_na.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview58"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.8814655"
+     inkscape:cx="225.09049"
+     inkscape:cy="66.171822"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg58" />
+  <!--
+    PALETA
+    Pizarra oscuro  #1A3C40  títulos y barras principales
+    Pizarra medio   #244E52  encabezados de tabla, True ✓
+    Pizarra claro   #336E74  bordes y acentos
+    Pizarra pálido  #CBE4E7  badges, textos sobre oscuro
+    Pizarra ghost   #EDF5F6  fondos sutiles
+    Coral           #C94030  False ✗, alertas
+    Coral pálido    #ECA090  textos sobre coral
+    Coral ghost     #FAF0EE  fondo de advertencia
+    Coral texto     #8A2018  texto de alerta sobre fondo claro
+    Fondo           #F4F3F0  página
+    Borde celda     #D0CECC
+    NaN bg          #EDECEC
+    NaN borde       #C0BDBA  (discontinuo)
+    NaN texto       #9A9690  (itálica)
+    Texto principal #1A1916
+    Texto índice    #7A7875
+  -->
+  <rect
+     width="820"
+     height="464"
+     fill="#F4F3F0"
+     rx="12"
+     id="rect1" />
+  <!-- Título -->
+  <rect
+     width="820"
+     height="62"
+     fill="#1A3C40"
+     rx="12"
+     id="rect2" />
+  <rect
+     y="50"
+     width="820"
+     height="12"
+     fill="#1A3C40"
+     id="rect3" />
+  <text
+     x="410"
+     y="29"
+     text-anchor="middle"
+     font-size="17px"
+     font-weight="700"
+     fill="#ffffff"
+     id="text3">NaN vs texto no estándar (&quot;ninguno&quot;)</text>
+  <text
+     x="410"
+     y="50"
+     text-anchor="middle"
+     font-size="12"
+     fill="#CBE4E7"
+     id="text4">
+    pandas convierte &quot;N/A&quot; a NaN al cargar; &quot;ninguno&quot; no lo reconoce
+  </text>
+  <!-- ══ TABLA IZQUIERDA  x=30 w=240 ══ -->
+  <text
+     x="150"
+     y="81"
+     text-anchor="middle"
+     font-size="11"
+     fill="#336E74"
+     font-style="italic"
+     font-weight="600"
+     id="text5">df[&quot;saldo_favor&quot;]</text>
+  <rect
+     x="30"
+     y="88"
+     width="240"
+     height="32"
+     fill="#244E52"
+     rx="4"
+     id="rect5" />
+  <text
+     x="49"
+     y="109"
+     font-size="11"
+     fill="#CBE4E7"
+     id="text6">#</text>
+  <text
+     x="150"
+     y="109"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="600"
+     fill="#FFFFFF"
+     id="text7">saldo_favor</text>
+  <!-- fila 0 válido -->
+  <rect
+     x="30"
+     y="120"
+     width="240"
+     height="30"
+     fill="#FFFFFF"
+     stroke="#D0CECC"
+     stroke-width="1"
+     id="rect7" />
+  <text
+     x="49"
+     y="140"
+     font-size="11"
+     fill="#7A7875"
+     id="text8">0</text>
+  <text
+     x="150"
+     y="140"
+     text-anchor="middle"
+     font-size="12"
+     fill="#1A1916"
+     id="text9">15 000</text>
+  <!-- fila 1 NaN real -->
+  <rect
+     x="30"
+     y="150"
+     width="240"
+     height="30"
+     fill="#EDECEC"
+     stroke="#C0BDBA"
+     stroke-width="1.5"
+     stroke-dasharray="6,3"
+     id="rect9" />
+  <text
+     x="49"
+     y="170"
+     font-size="11"
+     fill="#7A7875"
+     id="text10">1</text>
+  <text
+     x="150"
+     y="170"
+     text-anchor="middle"
+     font-size="12"
+     fill="#9A9690"
+     font-style="italic"
+     id="text11">NaN</text>
+  <!-- fila 2 "ninguno" texto — mismo aspecto que celda válida -->
+  <rect
+     x="30"
+     y="180"
+     width="240"
+     height="30"
+     fill="#FFFFFF"
+     stroke="#D0CECC"
+     stroke-width="1"
+     id="rect11" />
+  <text
+     x="49"
+     y="200"
+     font-size="11"
+     fill="#7A7875"
+     id="text12">2</text>
+  <text
+     x="150"
+     y="200"
+     text-anchor="middle"
+     font-size="12"
+     fill="#1A1916"
+     id="text13">&quot;ninguno&quot;</text>
+  <!-- fila 3 válido -->
+  <rect
+     x="30"
+     y="210"
+     width="240"
+     height="30"
+     fill="#FFFFFF"
+     stroke="#D0CECC"
+     stroke-width="1"
+     id="rect13" />
+  <text
+     x="49"
+     y="230"
+     font-size="11"
+     fill="#7A7875"
+     id="text14">3</text>
+  <text
+     x="150"
+     y="230"
+     text-anchor="middle"
+     font-size="12"
+     fill="#1A1916"
+     id="text15">28 500</text>
+  <!-- fila 4 NaN real -->
+  <rect
+     x="30"
+     y="240"
+     width="240"
+     height="30"
+     fill="#EDECEC"
+     stroke="#C0BDBA"
+     stroke-width="1.5"
+     stroke-dasharray="6,3"
+     id="rect15" />
+  <text
+     x="49"
+     y="260"
+     font-size="11"
+     fill="#7A7875"
+     id="text16">4</text>
+  <text
+     x="150"
+     y="260"
+     text-anchor="middle"
+     font-size="12"
+     fill="#9A9690"
+     font-style="italic"
+     id="text17">NaN</text>
+  <!-- fila 5 "ninguno" texto -->
+  <rect
+     x="30"
+     y="270"
+     width="240"
+     height="30"
+     fill="#FFFFFF"
+     stroke="#D0CECC"
+     stroke-width="1"
+     id="rect17" />
+  <text
+     x="49"
+     y="290"
+     font-size="11"
+     fill="#7A7875"
+     id="text18">5</text>
+  <text
+     x="150"
+     y="290"
+     text-anchor="middle"
+     font-size="12"
+     fill="#1A1916"
+     id="text19">&quot;ninguno&quot;</text>
+  <text
+     x="150"
+     y="316"
+     text-anchor="middle"
+     font-size="14"
+     fill="#9A9690"
+     id="text20">⋮</text>
+  <!-- leyenda -->
+  <rect
+     x="30"
+     y="333"
+     width="13"
+     height="13"
+     fill="#EDECEC"
+     stroke="#C0BDBA"
+     stroke-width="1.5"
+     stroke-dasharray="4,2"
+     rx="2"
+     id="rect20" />
+  <text
+     x="50"
+     y="345"
+     font-size="11px"
+     fill="#1a1916"
+     id="text21">NaN — isnull lo detecta</text>
+  <rect
+     x="30"
+     y="352"
+     width="13"
+     height="13"
+     fill="#FFFFFF"
+     stroke="#D0CECC"
+     stroke-width="1"
+     rx="2"
+     id="rect21" />
+  <text
+     x="50"
+     y="364"
+     font-size="11"
+     fill="#1A1916"
+     id="text22">&quot;ninguno&quot; — texto que parece dato válido</text>
+  <!-- ══ FLECHA CENTRAL ══ -->
+  <defs
+     id="defs22">
+    <marker
+       id="a1"
+       markerWidth="9"
+       markerHeight="6"
+       refX="8"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0,9 3,0 6"
+         fill="#336E74"
+         id="polygon22" />
+    </marker>
+  </defs>
+  <text
+     x="307"
+     y="208"
+     text-anchor="middle"
+     font-size="11"
+     fill="#336E74"
+     font-style="italic"
+     id="text23">.isnull()</text>
+  <line
+     x1="278"
+     y1="218"
+     x2="336"
+     y2="218"
+     stroke="#336E74"
+     stroke-width="2"
+     marker-end="url(#a1)"
+     id="line23" />
+  <!-- ══ TABLA DERECHA  x=346 w=228 ══ -->
+  <text
+     x="460"
+     y="81"
+     text-anchor="middle"
+     font-size="11"
+     fill="#336E74"
+     font-style="italic"
+     font-weight="600"
+     id="text24">df[&quot;saldo_favor&quot;].isnull()</text>
+  <rect
+     x="346"
+     y="88"
+     width="228"
+     height="32"
+     fill="#244E52"
+     rx="4"
+     id="rect24" />
+  <text
+     x="365"
+     y="109"
+     font-size="11"
+     fill="#CBE4E7"
+     id="text25">#</text>
+  <text
+     x="460"
+     y="109"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="600"
+     fill="#FFFFFF"
+     id="text26">isnull()</text>
+  <!-- fila 0 False válido -->
+  <rect
+     x="346"
+     y="120"
+     width="228"
+     height="30"
+     fill="#FFFFFF"
+     stroke="#D0CECC"
+     stroke-width="1"
+     id="rect26" />
+  <text
+     x="365"
+     y="140"
+     font-size="11"
+     fill="#7A7875"
+     id="text27">0</text>
+  <text
+     x="460"
+     y="140"
+     text-anchor="middle"
+     font-size="12"
+     fill="#7A7875"
+     id="text28">False</text>
+  <!-- fila 1 True ✓ pizarra -->
+  <rect
+     x="346"
+     y="150"
+     width="228"
+     height="30"
+     fill="#244E52"
+     id="rect28" />
+  <text
+     x="365"
+     y="170"
+     font-size="11"
+     fill="#CBE4E7"
+     id="text29">1</text>
+  <text
+     x="460"
+     y="170"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="#FFFFFF"
+     id="text30">True  ✓</text>
+  <!-- fila 2 False ✗ coral -->
+  <rect
+     x="346"
+     y="180"
+     width="228"
+     height="30"
+     fill="#C94030"
+     id="rect30" />
+  <text
+     x="365"
+     y="200"
+     font-size="11"
+     fill="#ECA090"
+     id="text31">2</text>
+  <text
+     x="460"
+     y="200"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="#FFFFFF"
+     id="text32">False  ✗</text>
+  <!-- fila 3 False válido -->
+  <rect
+     x="346"
+     y="210"
+     width="228"
+     height="30"
+     fill="#FFFFFF"
+     stroke="#D0CECC"
+     stroke-width="1"
+     id="rect32" />
+  <text
+     x="365"
+     y="230"
+     font-size="11"
+     fill="#7A7875"
+     id="text33">3</text>
+  <text
+     x="460"
+     y="230"
+     text-anchor="middle"
+     font-size="12"
+     fill="#7A7875"
+     id="text34">False</text>
+  <!-- fila 4 True ✓ pizarra -->
+  <rect
+     x="346"
+     y="240"
+     width="228"
+     height="30"
+     fill="#244E52"
+     id="rect34" />
+  <text
+     x="365"
+     y="260"
+     font-size="11"
+     fill="#CBE4E7"
+     id="text35">4</text>
+  <text
+     x="460"
+     y="260"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="#FFFFFF"
+     id="text36">True  ✓</text>
+  <!-- fila 5 False ✗ coral -->
+  <rect
+     x="346"
+     y="270"
+     width="228"
+     height="30"
+     fill="#C94030"
+     id="rect36" />
+  <text
+     x="365"
+     y="290"
+     font-size="11"
+     fill="#ECA090"
+     id="text37">5</text>
+  <text
+     x="460"
+     y="290"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="#FFFFFF"
+     id="text38">False  ✗</text>
+  <text
+     x="460"
+     y="316"
+     text-anchor="middle"
+     font-size="14"
+     fill="#9A9690"
+     id="text39">⋮</text>
+  <rect
+     x="346"
+     y="333"
+     width="228"
+     height="32"
+     fill="#1A3C40"
+     rx="4"
+     id="rect39" />
+  <text
+     x="460"
+     y="354"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="600"
+     fill="#CBE4E7"
+     id="text40">
+    .sum() → 21  (faltan 4)
+  </text>
+  <!-- ══ PANEL DERECHO  x=598 w=194 ══ -->
+  <rect
+     x="598"
+     y="88"
+     width="194"
+     height="310"
+     fill="#FFFFFF"
+     stroke="#D0CECC"
+     stroke-width="1"
+     rx="8"
+     id="rect40" />
+  <rect
+     x="598"
+     y="88"
+     width="194"
+     height="34"
+     fill="#C94030"
+     rx="8"
+     id="rect41" />
+  <rect
+     x="598"
+     y="108"
+     width="194"
+     height="14"
+     fill="#C94030"
+     id="rect42" />
+  <text
+     x="695"
+     y="111"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="#FFFFFF"
+     id="text42">
+    ⚠  Consecuencias
+  </text>
+  <text
+     x="616"
+     y="140"
+     font-size="11px"
+     font-weight="700"
+     fill="#1a3c40"
+     id="text43">NaN</text>
+  <text
+     x="616"
+     y="157"
+     font-size="10.5"
+     fill="#244E52"
+     id="text44">✓  isnull() lo detecta</text>
+  <text
+     x="616"
+     y="172"
+     font-size="10.5px"
+     fill="#244e52"
+     id="text45">✓ fillna() sirve para rellenar valores</text>
+  <text
+     x="616"
+     y="187"
+     font-size="10.5"
+     fill="#244E52"
+     id="text46">✓  mean() lo excluye</text>
+  <line
+     x1="612"
+     y1="197"
+     x2="782"
+     y2="197"
+     stroke="#E8E6E0"
+     stroke-width="1"
+     id="line46" />
+  <text
+     x="616"
+     y="213"
+     font-size="11"
+     font-weight="700"
+     fill="#8A2018"
+     id="text47">&quot;ninguno&quot; (texto)</text>
+  <text
+     x="616"
+     y="230"
+     font-size="10.5"
+     fill="#8A2018"
+     id="text48">✗  isnull() no lo ve</text>
+  <text
+     x="616"
+     y="245"
+     font-size="10.5px"
+     fill="#8a2018"
+     id="text49">✗ fillna() no funciona</text>
+  <text
+     x="616"
+     y="260"
+     font-size="10.5"
+     fill="#8A2018"
+     id="text50">✗  mean() lo cuenta</text>
+  <text
+     x="616"
+     y="275"
+     font-size="10.5"
+     fill="#8A2018"
+     id="text51">   como valor válido</text>
+  <line
+     x1="612"
+     y1="285"
+     x2="782"
+     y2="285"
+     stroke="#E8E6E0"
+     stroke-width="1"
+     id="line51" />
+  <rect
+     x="612"
+     y="293"
+     width="168"
+     height="96"
+     fill="#FAF0EE"
+     rx="4"
+     id="rect51" />
+  <text
+     x="690.1535"
+     y="301.90149"
+     text-anchor="middle"
+     font-size="10.5px"
+     fill="#8a2018"
+     font-weight="600"
+     id="text52"><tspan
+       sodipodi:role="line"
+       id="tspan58"
+       x="690.1535"
+       y="301.90149">Si queda &quot;ninguno&quot;, el promedio</tspan><tspan
+       sodipodi:role="line"
+       id="tspan59"
+       x="690.1535"
+       y="315.02649">es incorrecto.</tspan></text>
+  <text
+     x="696"
+     y="328"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#8A2018"
+     id="text53">isnull() reporta 21</text>
+  <text
+     x="696"
+     y="344"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#8A2018"
+     id="text54">nulos; faltan 4 (25).</text>
+  <text
+     x="696"
+     y="362"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#8A2018"
+     id="text55">Sin error visible.</text>
+  <text
+     x="696"
+     y="378"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#8A2018"
+     id="text56">Sin excepción.</text>
+  <!-- Barra solución -->
+  <rect
+     x="30"
+     y="406"
+     width="762"
+     height="46"
+     fill="#1A3C40"
+     rx="8"
+     id="rect56" />
+  <text
+     x="411"
+     y="425"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="#FFFFFF"
+     id="text57">
+    Solución:  reemplazar_nulos_texto(df)
+  </text>
+  <text
+     x="411"
+     y="443"
+     text-anchor="middle"
+     font-size="11"
+     fill="#CBE4E7"
+     id="text58">
+    convierte &quot;ninguno&quot; y variantes no estándar → NaN  —  isnull().sum() pasa de 21 a 25
+  </text>
+</svg>

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">¿Qué es un JSON?</title>
+  <desc id="desc">Infografía para principiantes que explica que JSON organiza datos mediante etiquetas y valores, muestra un ejemplo y su uso en procesamiento de datos.</desc>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#244E52" flood-opacity="0.14"/>
+    </filter>
+    <marker id="arrowCoral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#C94030"/>
+    </marker>
+    <marker id="arrowTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#336E74"/>
+    </marker>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1600" height="900" fill="#F7FAFA"/>
+  <circle cx="1480" cy="70" r="160" fill="#CBE4E7" opacity="0.55"/>
+  <circle cx="80" cy="850" r="180" fill="#ECA090" opacity="0.18"/>
+
+  <!-- Encabezado -->
+  <rect x="0" y="0" width="1600" height="150" fill="#244E52"/>
+  <rect x="0" y="140" width="1600" height="10" fill="#C94030"/>
+  <text x="80" y="73" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#FFFFFF">¿Qué es un JSON?</text>
+  <text x="82" y="118" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#CBE4E7">Una forma ordenada de representar datos mediante texto</text>
+  <g transform="translate(1370 36)">
+    <rect x="0" y="0" width="140" height="76" rx="18" fill="#336E74" stroke="#CBE4E7" stroke-width="2"/>
+    <text x="70" y="51" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="42" font-weight="700" fill="#FFFFFF">{ }</text>
+  </g>
+
+  <!-- Definición sencilla -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="190" width="1460" height="120" rx="24" fill="#FFFFFF"/>
+  </g>
+  <circle cx="135" cy="250" r="38" fill="#C94030"/>
+  <text x="135" y="263" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="200" y="236" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#244E52">Piensa en una ficha con campos etiquetados</text>
+  <text x="200" y="278" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#336E74">Cada etiqueta indica qué dato viene después: nombre, edad, ciudad, cursos…</text>
+
+  <!-- Columna izquierda: ficha humana -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="350" width="520" height="400" rx="26" fill="#FFFFFF"/>
+  </g>
+  <rect x="70" y="350" width="520" height="72" rx="26" fill="#336E74"/>
+  <rect x="70" y="397" width="520" height="25" fill="#336E74"/>
+  <text x="105" y="397" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">La información que entendemos</text>
+
+  <g transform="translate(105 455)">
+    <circle cx="54" cy="54" r="44" fill="#ECA090"/>
+    <circle cx="54" cy="43" r="17" fill="#C94030"/>
+    <path d="M22 90 C30 64, 78 64, 86 90 Z" fill="#C94030"/>
+    <text x="125" y="38" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#244E52">Ficha de una estudiante</text>
+    <text x="125" y="76" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#336E74">Nombre: Ana</text>
+    <text x="125" y="110" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#336E74">Edad: 28</text>
+    <text x="125" y="144" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#336E74">Activa: sí</text>
+  </g>
+
+  <line x1="105" y1="620" x2="555" y2="620" stroke="#CBE4E7" stroke-width="3"/>
+  <text x="105" y="663" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#C94030">Cursos</text>
+  <g transform="translate(105 683)">
+    <rect x="0" y="0" width="140" height="42" rx="21" fill="#CBE4E7"/>
+    <text x="70" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#244E52">Python</text>
+    <rect x="155" y="0" width="125" height="42" rx="21" fill="#CBE4E7"/>
+    <text x="217" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#244E52">Excel</text>
+  </g>
+
+  <!-- Flecha central -->
+  <path d="M 610 550 C 655 550, 675 550, 720 550" fill="none" stroke="#C94030" stroke-width="7" marker-end="url(#arrowCoral)"/>
+  <text x="665" y="522" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#C94030">se escribe como</text>
+
+  <!-- Columna central: JSON -->
+  <g filter="url(#shadow)">
+    <rect x="735" y="350" width="520" height="400" rx="26" fill="#244E52"/>
+  </g>
+  <rect x="735" y="350" width="520" height="72" rx="26" fill="#336E74"/>
+  <rect x="735" y="397" width="520" height="25" fill="#336E74"/>
+  <text x="770" y="397" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">La misma información en JSON</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="25">
+    <text x="785" y="468" fill="#FFFFFF">{</text>
+    <text x="820" y="510" fill="#ECA090">"nombre"</text><text x="944" y="510" fill="#FFFFFF">:</text><text x="970" y="510" fill="#CBE4E7">"Ana"</text><text x="1048" y="510" fill="#FFFFFF">,</text>
+    <text x="820" y="552" fill="#ECA090">"edad"</text><text x="913" y="552" fill="#FFFFFF">:</text><text x="939" y="552" fill="#CBE4E7">28</text><text x="978" y="552" fill="#FFFFFF">,</text>
+    <text x="820" y="594" fill="#ECA090">"activa"</text><text x="929" y="594" fill="#FFFFFF">:</text><text x="955" y="594" fill="#CBE4E7">true</text><text x="1020" y="594" fill="#FFFFFF">,</text>
+    <text x="820" y="636" fill="#ECA090">"cursos"</text><text x="929" y="636" fill="#FFFFFF">:</text><text x="955" y="636" fill="#FFFFFF">[</text>
+    <text x="985" y="636" fill="#CBE4E7">"Python"</text><text x="1092" y="636" fill="#FFFFFF">,</text>
+    <text x="820" y="678" fill="#CBE4E7">"Excel"</text><text x="914" y="678" fill="#FFFFFF">]</text>
+    <text x="785" y="720" fill="#FFFFFF">}</text>
+  </g>
+
+  <!-- Columna derecha: lectura de partes -->
+  <g filter="url(#shadow)">
+    <rect x="1300" y="350" width="230" height="400" rx="26" fill="#FFFFFF"/>
+  </g>
+  <text x="1330" y="397" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#244E52">Cómo leerlo</text>
+
+  <g transform="translate(1330 440)" font-family="Arial, Helvetica, sans-serif">
+    <circle cx="18" cy="18" r="18" fill="#C94030"/>
+    <text x="18" y="25" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">{ }</text>
+    <text x="50" y="15" font-size="19" font-weight="700" fill="#244E52">Objeto</text>
+    <text x="50" y="40" font-size="16" fill="#336E74">Agrupa los datos</text>
+
+    <circle cx="18" cy="96" r="18" fill="#C94030"/>
+    <text x="18" y="102" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">“ ”</text>
+    <text x="50" y="93" font-size="19" font-weight="700" fill="#244E52">Texto</text>
+    <text x="50" y="118" font-size="16" fill="#336E74">Va entre comillas</text>
+
+    <circle cx="18" cy="174" r="18" fill="#C94030"/>
+    <text x="18" y="181" text-anchor="middle" font-size="19" font-weight="700" fill="#FFFFFF">:</text>
+    <text x="50" y="171" font-size="19" font-weight="700" fill="#244E52">Separador</text>
+    <text x="50" y="196" font-size="16" fill="#336E74">Etiqueta y valor</text>
+
+    <circle cx="18" cy="252" r="18" fill="#C94030"/>
+    <text x="18" y="259" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">[ ]</text>
+    <text x="50" y="249" font-size="19" font-weight="700" fill="#244E52">Lista</text>
+    <text x="50" y="274" font-size="16" fill="#336E74">Varios valores</text>
+  </g>
+
+  <!-- Pie: procesamiento de datos -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="790" width="1460" height="82" rx="24" fill="#CBE4E7"/>
+  </g>
+  <g transform="translate(105 813)">
+    <rect x="0" y="0" width="150" height="40" rx="12" fill="#FFFFFF" stroke="#336E74" stroke-width="2"/>
+    <text x="75" y="27" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="21" font-weight="700" fill="#244E52">datos.json</text>
+    <line x1="168" y1="20" x2="245" y2="20" stroke="#336E74" stroke-width="5" marker-end="url(#arrowTeal)"/>
+    <rect x="263" y="0" width="220" height="40" rx="12" fill="#FFFFFF" stroke="#336E74" stroke-width="2"/>
+    <text x="373" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#244E52">Python / una API</text>
+    <line x1="501" y1="20" x2="578" y2="20" stroke="#336E74" stroke-width="5" marker-end="url(#arrowTeal)"/>
+    <rect x="596" y="0" width="205" height="40" rx="12" fill="#FFFFFF" stroke="#336E74" stroke-width="2"/>
+    <text x="698" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#244E52">Tabla o análisis</text>
+    <text x="850" y="17" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#244E52">JSON significa JavaScript Object Notation.</text>
+    <text x="850" y="40" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#244E52">Permite que distintos programas compartan datos organizados.</text>
+  </g>
+</svg>

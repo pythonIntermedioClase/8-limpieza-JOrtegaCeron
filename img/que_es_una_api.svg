@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="2100"
+   viewBox="0 0 1600 2100"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg85"
+   sodipodi:docname="que_es_una_api.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview85"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.83142857"
+     inkscape:cx="836.51203"
+     inkscape:cy="173.79725"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg85" />
+  <title
+     id="title">Qué es una API</title>
+  <desc
+     id="desc">Infografía en español para principiantes que explica qué es una API, cómo funciona y para qué sirve.</desc>
+  <defs
+     id="defs2">
+    <filter
+       id="shadow"
+       x="-0.0018055555"
+       y="-0.0054166665"
+       width="1.0036111"
+       height="1.0108333">
+      <feDropShadow
+         dx="0"
+         dy="5"
+         stdDeviation="7"
+         flood-color="#17383B"
+         flood-opacity="0.10" />
+    </filter>
+    <marker
+       id="arrowCoral"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#C94030"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrowDark"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#244E52"
+         id="path2" />
+    </marker>
+  </defs>
+  <rect
+     width="1600"
+     height="2100"
+     fill="#F5F9F9"
+     id="rect2" />
+  <rect
+     x="0"
+     y="0"
+     width="1600"
+     height="180"
+     rx="0"
+     fill="#244E52"
+     stroke="none"
+     stroke-width="1"
+     opacity="1"
+     id="rect3" />
+  <text
+     x="70"
+     y="125"
+     font-family="Arial, sans-serif"
+     font-size="54"
+     font-weight="800"
+     fill="#FFFFFF"
+     text-anchor="start"
+     opacity="1"
+     letter-spacing="0"
+     id="text4">¿Qué es una API?</text>
+  <rect
+     x="50"
+     y="208"
+     width="1500"
+     height="120"
+     rx="22"
+     fill="#FFFFFF"
+     stroke="#B9D1D3"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect6" />
+  <text
+     x="80"
+     y="245"
+     font-family="Arial, sans-serif"
+     font-size="18px"
+     font-weight="800"
+     fill="#c94030"
+     text-anchor="start"
+     opacity="1"
+     letter-spacing="0"
+     id="text7">Definición</text>
+  <text
+     x="80"
+     y="285"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     font-weight="800"
+     fill="#244E52"
+     text-anchor="start"
+     opacity="1"
+     letter-spacing="0"
+     id="text8">Una API es una forma organizada de pedirle información o acciones a otro sistema.</text>
+  <text
+     x="80"
+     y="314"
+     font-family="Arial, sans-serif"
+     font-size="17px"
+     font-weight="600"
+     fill="#17383b"
+     text-anchor="start"
+     opacity="1"
+     letter-spacing="0"
+     id="text9">Un programa hace una solicitud. El otro sistema responde con datos que la computadora puede leer.</text>
+  <g
+     filter="url(#shadow)"
+     id="g24">
+    <rect
+       x="50"
+       y="360"
+       width="1500"
+       height="270"
+       rx="24"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.5"
+       opacity="1"
+       id="rect9" />
+    <rect
+       x="50"
+       y="360"
+       width="1500"
+       height="70"
+       rx="24"
+       fill="#244E52"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect10" />
+    <rect
+       x="50"
+       y="408"
+       width="1500"
+       height="22"
+       rx="0"
+       fill="#244E52"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect11" />
+    <text
+       x="78"
+       y="405"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="800"
+       fill="#FFFFFF"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text11">Analogía</text>
+    <text
+       x="78"
+       y="474"
+       font-family="Arial, sans-serif"
+       font-size="22"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text12">Piensa en un restaurante:</text>
+    <circle
+       cx="170"
+       cy="525"
+       r="36"
+       fill="#CBE4E7"
+       stroke="none"
+       stroke-width="1"
+       id="circle12" />
+    <circle
+       cx="170"
+       cy="500"
+       r="12"
+       fill="#244E52"
+       stroke="none"
+       stroke-width="1"
+       id="circle13" />
+    <rect
+       x="154"
+       y="514"
+       width="32"
+       height="28"
+       rx="10"
+       fill="#244E52"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect13" />
+    <text
+       x="170"
+       y="580"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text13">Tú o tu programa</text>
+    <text
+       x="170"
+       y="604"
+       font-family="Arial, sans-serif"
+       font-size="15"
+       font-weight="400"
+       fill="#557174"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text14">quieres algo</text>
+    <circle
+       cx="800"
+       cy="525"
+       r="36"
+       fill="#ECA090"
+       stroke="none"
+       stroke-width="1"
+       id="circle14" />
+    <circle
+       cx="800"
+       cy="500"
+       r="12"
+       fill="#C94030"
+       stroke="none"
+       stroke-width="1"
+       id="circle15" />
+    <rect
+       x="784"
+       y="514"
+       width="32"
+       height="28"
+       rx="10"
+       fill="#C94030"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect15" />
+    <text
+       x="800"
+       y="580"
+       font-family="Arial, sans-serif"
+       font-size="20"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text15">La API</text>
+    <text
+       x="800"
+       y="604"
+       font-family="Arial, sans-serif"
+       font-size="15"
+       font-weight="400"
+       fill="#557174"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text16">recibe y entrega</text>
+    <rect
+       x="1320"
+       y="480"
+       width="96"
+       height="76"
+       rx="16"
+       fill="#CBE4E7"
+       stroke="#336E74"
+       stroke-width="2"
+       opacity="1"
+       id="rect16" />
+    <rect
+       x="1345"
+       y="462"
+       width="46"
+       height="18"
+       rx="6"
+       fill="#336E74"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect17" />
+    <text
+       x="1368"
+       y="583"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text17">El sistema o servicio</text>
+    <text
+       x="1368"
+       y="606"
+       font-family="Arial, sans-serif"
+       font-size="15"
+       font-weight="400"
+       fill="#557174"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text18">que tiene los datos</text>
+    <line
+       x1="230"
+       y1="522"
+       x2="735"
+       y2="522"
+       stroke="#C94030"
+       stroke-width="4"
+       opacity="1"
+       marker-end="url(#arrowCoral)"
+       id="line18" />
+    <line
+       x1="865"
+       y1="522"
+       x2="1310"
+       y2="522"
+       stroke="#244E52"
+       stroke-width="4"
+       opacity="1"
+       marker-end="url(#arrowDark)"
+       id="line19" />
+    <line
+       x1="1310"
+       y1="542"
+       x2="865"
+       y2="542"
+       stroke="#244E52"
+       stroke-width="4"
+       opacity="1"
+       marker-end="url(#arrowDark)"
+       id="line20" />
+    <line
+       x1="735"
+       y1="542"
+       x2="230"
+       y2="542"
+       stroke="#C94030"
+       stroke-width="4"
+       opacity="1"
+       marker-end="url(#arrowCoral)"
+       id="line21" />
+    <text
+       x="485"
+       y="507"
+       font-family="Arial, sans-serif"
+       font-size="15"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text21">pedido</text>
+    <text
+       x="1088"
+       y="507"
+       font-family="Arial, sans-serif"
+       font-size="15"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text22">consulta</text>
+    <text
+       x="1088"
+       y="566"
+       font-family="Arial, sans-serif"
+       font-size="15"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text23">respuesta</text>
+    <text
+       x="485"
+       y="566"
+       font-family="Arial, sans-serif"
+       font-size="15"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text24">resultado</text>
+  </g>
+  <g
+     filter="url(#shadow)"
+     id="g43">
+    <rect
+       x="50"
+       y="670"
+       width="1500"
+       height="430"
+       rx="24"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.5"
+       opacity="1"
+       id="rect24" />
+    <rect
+       x="50"
+       y="670"
+       width="1500"
+       height="70"
+       rx="24"
+       fill="#244E52"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect25" />
+    <rect
+       x="50"
+       y="718"
+       width="1500"
+       height="22"
+       rx="0"
+       fill="#244E52"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect26" />
+    <text
+       x="78"
+       y="715"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="800"
+       fill="#FFFFFF"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text26">Cómo funciona una API</text>
+    <circle
+       cx="210"
+       cy="800"
+       r="38"
+       fill="#CBE4E7"
+       stroke="#336E74"
+       stroke-width="2"
+       id="circle26" />
+    <text
+       x="210"
+       y="810"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="900"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text27">1</text>
+    <text
+       x="210"
+       y="874"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text28">Tu programa envía una solicitud</text>
+    <text
+       x="210"
+       y="900"
+       font-family="Arial, sans-serif"
+       font-size="14.5"
+       font-weight="400"
+       fill="#557174"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text29">Por ejemplo: &quot;dame la tasa USD/COP&quot;</text>
+    <circle
+       cx="570"
+       cy="800"
+       r="38"
+       fill="#CBE4E7"
+       stroke="#336E74"
+       stroke-width="2"
+       id="circle29" />
+    <text
+       x="570"
+       y="810"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="900"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text30">2</text>
+    <text
+       x="570"
+       y="874"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text31">La API recibe la petición</text>
+    <text
+       x="570"
+       y="900"
+       font-family="Arial, sans-serif"
+       font-size="14.5"
+       font-weight="400"
+       fill="#557174"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text32">La URL y el método indican qué se pide</text>
+    <circle
+       cx="930"
+       cy="800"
+       r="38"
+       fill="#CBE4E7"
+       stroke="#336E74"
+       stroke-width="2"
+       id="circle32" />
+    <text
+       x="930"
+       y="810"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="900"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text33">3</text>
+    <text
+       x="930"
+       y="874"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text34">El servicio busca la información</text>
+    <text
+       x="930"
+       y="900"
+       font-family="Arial, sans-serif"
+       font-size="14.5"
+       font-weight="400"
+       fill="#557174"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text35">Consulta su base de datos o su lógica interna</text>
+    <circle
+       cx="1290"
+       cy="800"
+       r="38"
+       fill="#CBE4E7"
+       stroke="#336E74"
+       stroke-width="2"
+       id="circle35" />
+    <text
+       x="1290"
+       y="810"
+       font-family="Arial, sans-serif"
+       font-size="28"
+       font-weight="900"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text36">4</text>
+    <text
+       x="1290"
+       y="874"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text37">Devuelve una respuesta</text>
+    <text
+       x="1290"
+       y="900"
+       font-family="Arial, sans-serif"
+       font-size="14.5"
+       font-weight="400"
+       fill="#557174"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text38">Casi siempre en JSON</text>
+    <line
+       x1="265"
+       y1="800"
+       x2="515"
+       y2="800"
+       stroke="#C94030"
+       stroke-width="4"
+       opacity="1"
+       marker-end="url(#arrowCoral)"
+       id="line38" />
+    <line
+       x1="625"
+       y1="800"
+       x2="875"
+       y2="800"
+       stroke="#C94030"
+       stroke-width="4"
+       opacity="1"
+       marker-end="url(#arrowCoral)"
+       id="line39" />
+    <line
+       x1="985"
+       y1="800"
+       x2="1235"
+       y2="800"
+       stroke="#C94030"
+       stroke-width="4"
+       opacity="1"
+       marker-end="url(#arrowCoral)"
+       id="line40" />
+    <rect
+       x="145"
+       y="935"
+       width="520"
+       height="120"
+       rx="18"
+       fill="#EAF3F4"
+       stroke="#B9D1D3"
+       stroke-width="1"
+       opacity="1"
+       id="rect40" />
+    <text
+       x="170"
+       y="970"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text40">Ejemplo de solicitud</text>
+    <rect
+       x="170"
+       y="985"
+       width="470"
+       height="44"
+       rx="11"
+       fill="#17383B"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect41" />
+    <text
+       x="192"
+       y="1013"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="400"
+       fill="#FFFFFF"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text41">GET https://api.ejemplo.com/tasa/USD/COP</text>
+    <rect
+       x="935"
+       y="935"
+       width="470"
+       height="120"
+       rx="18"
+       fill="#EAF3F4"
+       stroke="#B9D1D3"
+       stroke-width="1"
+       opacity="1"
+       id="rect42" />
+    <text
+       x="960"
+       y="970"
+       font-family="Arial, sans-serif"
+       font-size="18"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text42">Ejemplo de respuesta</text>
+    <rect
+       x="960"
+       y="985"
+       width="420"
+       height="44"
+       rx="11"
+       fill="#17383B"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect43" />
+    <text
+       x="980"
+       y="1013"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="400"
+       fill="#FFFFFF"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text43">{&quot;moneda&quot;:&quot;COP&quot;,&quot;valor&quot;:4187.5}</text>
+  </g>
+  <text
+     x="50"
+     y="1145"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="800"
+     fill="#244E52"
+     text-anchor="start"
+     opacity="1"
+     letter-spacing="0"
+     id="text44">Palabras básicas: </text>
+  <g
+     filter="url(#shadow)"
+     id="g46">
+    <rect
+       x="50"
+       y="1170"
+       width="360"
+       height="120"
+       rx="20"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.3"
+       opacity="1"
+       id="rect44" />
+    <rect
+       x="70"
+       y="1190"
+       width="90"
+       height="32"
+       rx="16"
+       fill="#ECA090"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect45" />
+    <text
+       x="115.0"
+       y="1211"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="700"
+       fill="#C94030"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text45">URL</text>
+    <text
+       x="70"
+       y="1240"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text46">la dirección a la que haces la petición</text>
+  </g>
+  <g
+     filter="url(#shadow)"
+     id="g48">
+    <rect
+       x="430"
+       y="1170"
+       width="360"
+       height="120"
+       rx="20"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.3"
+       opacity="1"
+       id="rect46" />
+    <rect
+       x="450"
+       y="1190"
+       width="90"
+       height="32"
+       rx="16"
+       fill="#ECA090"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect47" />
+    <text
+       x="495.0"
+       y="1211"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="700"
+       fill="#C94030"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text47">GET</text>
+    <text
+       x="450"
+       y="1240"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text48">pedir información</text>
+  </g>
+  <g
+     filter="url(#shadow)"
+     id="g50">
+    <rect
+       x="810"
+       y="1170"
+       width="360"
+       height="120"
+       rx="20"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.3"
+       opacity="1"
+       id="rect48" />
+    <rect
+       x="830"
+       y="1190"
+       width="90"
+       height="32"
+       rx="16"
+       fill="#ECA090"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect49" />
+    <text
+       x="875.0"
+       y="1211"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="700"
+       fill="#C94030"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text49">POST</text>
+    <text
+       x="830"
+       y="1240"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text50">enviar información nueva</text>
+  </g>
+  <g
+     filter="url(#shadow)"
+     id="g52">
+    <rect
+       x="1190"
+       y="1170"
+       width="360"
+       height="120"
+       rx="20"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.3"
+       opacity="1"
+       id="rect50" />
+    <rect
+       x="1210"
+       y="1190"
+       width="90"
+       height="32"
+       rx="16"
+       fill="#ECA090"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect51" />
+    <text
+       x="1255.0"
+       y="1211"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="700"
+       fill="#C94030"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text51">JSON</text>
+    <text
+       x="1210"
+       y="1240"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text52">texto estructurado para intercambiar datos</text>
+  </g>
+  <g
+     filter="url(#shadow)"
+     id="g61">
+    <rect
+       x="50"
+       y="1330"
+       width="720"
+       height="360"
+       rx="22"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.5"
+       opacity="1"
+       id="rect52" />
+    <rect
+       x="50"
+       y="1330"
+       width="10"
+       height="360"
+       rx="5"
+       fill="#336E74"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect53" />
+    <text
+       x="78"
+       y="1368"
+       font-family="Arial, sans-serif"
+       font-size="24"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text53">¿Para qué sirven?</text>
+    <text
+       x="78"
+       y="1408"
+       font-family="Arial, sans-serif"
+       font-size="17"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text54">Consultar datos actualizados</text>
+    <text
+       x="78"
+       y="1434"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text55">Clima, precios, tasa de cambio, mapas, noticias, inventario.</text>
+    <text
+       x="78"
+       y="1458"
+       font-family="Arial, sans-serif"
+       font-size="17"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text56">Enviar o guardar información</text>
+    <text
+       x="78"
+       y="1484"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text57">Crear registros, actualizar datos o registrar un pedido.</text>
+    <text
+       x="78"
+       y="1508"
+       font-family="Arial, sans-serif"
+       font-size="17"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text58">Conectar sistemas distintos</text>
+    <text
+       x="78"
+       y="1534"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text59">Una aplicación puede usar servicios de otra sin rehacer todo desde cero.</text>
+    <text
+       x="78"
+       y="1558"
+       font-family="Arial, sans-serif"
+       font-size="17"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text60">Automatizar tareas</text>
+    <text
+       x="78"
+       y="1584"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text61">Tu programa consulta y procesa respuestas de forma automática.</text>
+  </g>
+  <g
+     filter="url(#shadow)"
+     id="g69">
+    <rect
+       x="810"
+       y="1330"
+       width="740"
+       height="360"
+       rx="22"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.5"
+       opacity="1"
+       id="rect61" />
+    <rect
+       x="810"
+       y="1330"
+       width="10"
+       height="360"
+       rx="5"
+       fill="#336E74"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect62" />
+    <text
+       x="838"
+       y="1368"
+       font-family="Arial, sans-serif"
+       font-size="24"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text62">Ejemplo</text>
+    <rect
+       x="1430"
+       y="1348"
+       width="92"
+       height="32"
+       rx="16"
+       fill="#ECA090"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect63" />
+    <text
+       x="1476.0"
+       y="1369"
+       font-family="'Courier New', monospace"
+       font-size="13"
+       font-weight="700"
+       fill="#C94030"
+       text-anchor="middle"
+       opacity="1"
+       letter-spacing="0"
+       id="text63">requests</text>
+    <text
+       x="838"
+       y="1408"
+       font-family="Arial, sans-serif"
+       font-size="17"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text64">Ejemplo en Python</text>
+    <rect
+       x="838"
+       y="1414"
+       width="684"
+       height="36"
+       rx="10"
+       fill="#17383B"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect64" />
+    <text
+       x="854"
+       y="1437"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="400"
+       fill="#FFFFFF"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text65">import requests</text>
+    <rect
+       x="838"
+       y="1464"
+       width="684"
+       height="36"
+       rx="10"
+       fill="#17383B"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect65" />
+    <text
+       x="854"
+       y="1487"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="400"
+       fill="#FFFFFF"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text66">respuesta = requests.get(&quot;https://api.ejemplo.com/tasa/USD/COP&quot;)</text>
+    <rect
+       x="838"
+       y="1514"
+       width="684"
+       height="36"
+       rx="10"
+       fill="#17383B"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect66" />
+    <text
+       x="854"
+       y="1537"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="400"
+       fill="#FFFFFF"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text67">datos = respuesta.json()</text>
+    <rect
+       x="838"
+       y="1564"
+       width="684"
+       height="36"
+       rx="10"
+       fill="#17383B"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect67" />
+    <text
+       x="854"
+       y="1587"
+       font-family="'Courier New', monospace"
+       font-size="15"
+       font-weight="400"
+       fill="#FFFFFF"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text68">print(datos[&quot;valor&quot;])</text>
+    <text
+       x="838"
+       y="1634"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text69">Primero se hace la petición; luego se convierte la respuesta a diccionario.</text>
+  </g>
+  <g
+     filter="url(#shadow)"
+     id="g75">
+    <rect
+       x="50"
+       y="1725"
+       width="720"
+       height="210"
+       rx="22"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.5"
+       opacity="1"
+       id="rect69" />
+    <rect
+       x="50"
+       y="1725"
+       width="10"
+       height="210"
+       rx="5"
+       fill="#336E74"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect70" />
+    <text
+       x="78"
+       y="1763"
+       font-family="Arial, sans-serif"
+       font-size="24"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text70">Qué la hace diferente de una página web</text>
+    <text
+       x="78"
+       y="1803"
+       font-family="Arial, sans-serif"
+       font-size="17"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text71">Una API no es</text>
+    <text
+       x="78"
+       y="1829"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text72">una página para leer con los ojos del usuario.</text>
+    <text
+       x="78"
+       y="1853"
+       font-family="Arial, sans-serif"
+       font-size="17"
+       font-weight="800"
+       fill="#C94030"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text73">Una API es</text>
+    <text
+       x="78"
+       y="1879"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text74">una interfaz pensada para que otro programa la entienda.</text>
+    <text
+       x="78"
+       y="1903"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text75">Por eso la respuesta suele venir en JSON y no en HTML.</text>
+  </g>
+  <g
+     filter="url(#shadow)"
+     id="g81">
+    <rect
+       x="810"
+       y="1725"
+       width="740"
+       height="210"
+       rx="22"
+       fill="#FFFFFF"
+       stroke="#B9D1D3"
+       stroke-width="1.5"
+       opacity="1"
+       id="rect75" />
+    <rect
+       x="810"
+       y="1725"
+       width="10"
+       height="210"
+       rx="5"
+       fill="#336E74"
+       stroke="none"
+       stroke-width="1"
+       opacity="1"
+       id="rect76" />
+    <text
+       x="838"
+       y="1763"
+       font-family="Arial, sans-serif"
+       font-size="24"
+       font-weight="800"
+       fill="#244E52"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text76">Primeros pasos para trabajar con APIs</text>
+    <text
+       x="838"
+       y="1803"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text77">1. Identificar la URL del servicio</text>
+    <text
+       x="838"
+       y="1827"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text78">2. Saber qué método usar: GET, POST u otro</text>
+    <text
+       x="838"
+       y="1851"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text79">3. Revisar qué datos devuelve</text>
+    <text
+       x="838"
+       y="1875"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text80">4. Leer el JSON y usarlo en tu programa</text>
+    <text
+       x="838"
+       y="1899"
+       font-family="Arial, sans-serif"
+       font-size="16"
+       font-weight="600"
+       fill="#17383B"
+       text-anchor="start"
+       opacity="1"
+       letter-spacing="0"
+       id="text81">5. Manejar errores si el servicio no responde</text>
+  </g>
+  <rect
+     x="50"
+     y="1980"
+     width="1500"
+     height="80"
+     rx="22"
+     fill="#244E52"
+     stroke="none"
+     stroke-width="1"
+     opacity="1"
+     id="rect81" />
+  <rect
+     x="72"
+     y="1996"
+     width="46"
+     height="46"
+     rx="14"
+     fill="#C94030"
+     stroke="none"
+     stroke-width="1"
+     opacity="1"
+     id="rect82" />
+  <text
+     x="95"
+     y="2027"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     font-weight="900"
+     fill="#FFFFFF"
+     text-anchor="middle"
+     opacity="1"
+     letter-spacing="0"
+     id="text82">!</text>
+  <text
+     x="140"
+     y="2008"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     font-weight="800"
+     fill="#ECA090"
+     text-anchor="start"
+     opacity="1"
+     letter-spacing="0"
+     id="text83">Resumen</text>
+  <text
+     x="140"
+     y="2036"
+     font-family="Arial, sans-serif"
+     font-size="15.5"
+     font-weight="600"
+     fill="#FFFFFF"
+     text-anchor="start"
+     opacity="1"
+     letter-spacing="0"
+     id="text84">Una API es un puente entre tu programa y otro servicio: tú pides algo, la API transmite la petición y devuelve una respuesta que la máquina puede procesar.</text>
+</svg>
