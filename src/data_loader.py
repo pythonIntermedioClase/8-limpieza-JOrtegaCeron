@@ -253,3 +253,5 @@ if __name__ == "__main__":
     reporte = generar_reporte_diagnostico(df)
     print("\n=== Reporte de diagnóstico consolidado ===")
     print(reporte.to_string(index=False))
+    salidas_path=os.path.join(RAIZ, "data", "outputs", "reporte.xlsx")
+    reporte.to_excel(salidas_path)

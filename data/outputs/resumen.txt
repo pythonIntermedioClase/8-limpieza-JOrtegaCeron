@@ -1,0 +1,2 @@
+Declaraciones procesadas: 185
+Duplicados eliminados: 15
