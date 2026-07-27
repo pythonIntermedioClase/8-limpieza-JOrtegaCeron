@@ -53,6 +53,9 @@ def reemplazar_nulos_texto(
         df = reemplazar_nulos_texto(df)
         df["saldo_favor"].isnull().sum()   -> 25   # tras convertir los "ninguno"
     """
+    df = df.replace(valores, np.nan)
+    return df
+    
     # EJERCICIO: recorre el DataFrame y sustituye por un nulo real todas las
     #            celdas cuyo valor aparezca en `valores`. Devuelve un DataFrame
     #            nuevo (no modifiques el original). Al terminar, la detección de
@@ -84,7 +87,11 @@ def eliminar_duplicados(df):
     """
     # EJERCICIO: produce un DataFrame sin filas repetidas y calcula cuántas
     #            desaparecieron. Retorna la tupla (df_sin_duplicados, eliminadas).
-    raise NotImplementedError("Implementa eliminar_duplicados()")
+    filas_antes = len(df)
+    df = df.drop_duplicates()
+    eliminadas = filas_antes - len(df)
+    print(f"  Duplicados eliminados: {eliminadas}")
+    return df, eliminadas
 
 
 def limpiar_texto(df, columnas):
@@ -113,7 +120,10 @@ def limpiar_texto(df, columnas):
     # EJERCICIO: para cada columna indicada, quita los espacios laterales de
     #            cada celda y pásala a minúsculas. Trabaja sobre una copia y
     #            devuélvela.
-    raise NotImplementedError("Implementa limpiar_texto()")
+    df = df.copy()
+    for columna in columnas:
+        df[columna] = df[columna].str.strip().str.lower()
+    return df
 
 
 def corregir_fechas(df, columna):
@@ -218,8 +228,12 @@ if __name__ == "__main__":
     print(f"Filas iniciales: {len(df)}")
 
     df = reemplazar_nulos_texto(df)
+    print(df["saldo_favor"].value_counts(dropna=False).head())
     df, eliminadas = eliminar_duplicados(df)
+    print(f"Filas después de eliminar duplicados: {len(df)}")
+    print(f"Eliminadas: {eliminadas}")
     df = limpiar_texto(df, columnas=["tipo_persona", "municipio"])
+    print(df["tipo_persona"].value_counts())
     df = corregir_fechas(df, "fecha_presentacion")
 
     columnas_numericas = [
