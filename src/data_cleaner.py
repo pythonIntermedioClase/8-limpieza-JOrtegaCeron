@@ -158,9 +158,12 @@ def corregir_fechas(df, columna):
     # EJERCICIO: convierte la columna de texto a fecha manejando los tres casos
     #            descritos arriba (formatos mezclados, valores ilegibles y la
     #            fecha centinela 01/01/1900). Trabaja sobre una copia.
-    raise NotImplementedError("Implementa corregir_fechas()")
-
-
+    df.loc[df[columna] == "01/01/1900", columna] = None
+    df[columna] = pd.to_datetime(
+        df[columna], format="mixed", dayfirst=True, errors="coerce"
+    )
+    return df
+    
 def corregir_numericos(df, columna):
     """
     Convierte una columna de texto a número (float), dejando como nulo lo que
@@ -186,7 +189,9 @@ def corregir_numericos(df, columna):
     """
     # EJERCICIO: convierte la columna a número tolerando valores no convertibles
     #            (que deben quedar como nulo). Trabaja sobre una copia.
-    raise NotImplementedError("Implementa corregir_numericos()")
+    df = df.copy()
+    df[columna] = pd.to_numeric(df[columna], errors="coerce")
+    return df
 
 
 def filtrar_negativos(df, columna):
@@ -215,7 +220,10 @@ def filtrar_negativos(df, columna):
     """
     # EJERCICIO: agrega la columna booleana descrita, marcando los negativos.
     #            No elimines filas. Trabaja sobre una copia.
-    raise NotImplementedError("Implementa filtrar_negativos()")
+    df = df.copy()
+    nombre_flag = f"{columna}_es_negativo"
+    df[nombre_flag] = df[columna] < 0
+    return df
 
 
 if __name__ == "__main__":

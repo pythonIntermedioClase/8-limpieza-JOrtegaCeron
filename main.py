@@ -99,17 +99,20 @@ def main():
 
         elif opcion == "2":
             if df_raw is None:
-                print("  Debes ejecutar primero la opción 1 para diagnosticar los datos.")
+                print("  ⚠  Primero diagnostica los datos con la opción 1.")
             else:
-                df_limpio = df_raw.copy()
-                df_limpio = reemplazar_nulos_texto(df_limpio, COLUMNAS_TEXTO)
-                df_limpio = eliminar_duplicados(df_limpio)
-                df_limpio = limpiar_texto(df_limpio, COLUMNAS_TEXTO)
-                df_limpio = corregir_fechas(df_limpio)
-                df_limpio = corregir_numericos(df_limpio, COLUMNAS_NUMERICAS)
-                df_limpio = filtrar_negativos(df_limpio, ["activos_exterior_usd"])
-                print("  Datos limpiados correctamente.")
+                df_sin_nas = reemplazar_nulos_texto(df_raw)
+                df_sin_dupes, _ = eliminar_duplicados(df_sin_nas)
+                df_texto_ok = limpiar_texto(df_sin_dupes, columnas=COLUMNAS_TEXTO)
+                df_fechas_ok = corregir_fechas(df_texto_ok, "fecha_presentacion")
 
+                df_nums_ok = df_fechas_ok.copy()
+                for col in COLUMNAS_NUMERICAS:
+                    df_nums_ok = corregir_numericos(df_nums_ok, col)
+
+                df_limpio = filtrar_negativos(df_nums_ok, "activos_exterior_usd")
+                print(f"  ✅  Limpieza completada. Filas resultantes: {len(df_limpio)}")
+        
         elif opcion == "3":
             if df_limpio is None:
                 print("  Debes ejecutar primero la opción 2 para limpiar los datos.")
