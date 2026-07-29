@@ -79,7 +79,9 @@ def agregar_columna_cop(df, columna_usd, tasa):
     """
     # EJERCICIO: crea la columna derivada f"{columna_usd}_cop" con el valor en
     #            USD convertido a COP mediante `tasa`. Trabaja sobre una copia.
-    raise NotImplementedError("Implementa agregar_columna_cop()")
+    nombre_columna = f"{columna_usd}_cop"
+    df[nombre_columna] = df[columna_usd] * tasa
+    return df
 
 
 if __name__ == "__main__":
