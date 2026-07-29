@@ -158,6 +158,7 @@ def corregir_fechas(df, columna):
     # EJERCICIO: convierte la columna de texto a fecha manejando los tres casos
     #            descritos arriba (formatos mezclados, valores ilegibles y la
     #            fecha centinela 01/01/1900). Trabaja sobre una copia.
+    df = df.copy()
     df.loc[df[columna] == "01/01/1900", columna] = None
     df[columna] = pd.to_datetime(
         df[columna], format="mixed", dayfirst=True, errors="coerce"
